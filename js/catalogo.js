@@ -95,25 +95,23 @@ let productos =
 
  function imprimir(){
 
-    let wrapper = document.getElementById("wrapper")
+    let wrapper = document.getElementById("catalogo")
     let resultado = "";
 
     productos.forEach(element => {
         let template_card = `
-        <a href="${element.amazon_url}">
-        <div class="card" id="${element.id}">
-    
-            <img src="${element.imagen_url}" alt="" srcset="">
-            <div>
-                <h2>${element.titulo}</h2>
-                <h3>${element.precio}</h3>
-                <p>${element.detalle}</p>
-                <button>Ver en Amazom</button>
+
+            <div class="w3-col l3 s6">
+
+            <div class="w3-container">
+            <img src="${element.imagen_url}" style="width:100%">
+            <p>${element.titulo}<br><b>$</b></p>
             </div>
-    
+
         </div>
-    </a>
-        `;
+  
+    
+    `;
         resultado += template_card;
     });
 
