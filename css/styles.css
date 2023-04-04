@@ -1,3 +1,7 @@
+html{
+    /* font-style: "Times New Roman"; */
+    font-family: "Optima", "Cambria", Times,'Times New Roman', serif;
+}
 body{
     background-color: rgba(252, 244, 244, 0.8);
     /* border: 1px solid red; */
