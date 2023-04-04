@@ -79,13 +79,14 @@ header div h1{
         background-color: #fff;
         /* border: 1px solid black; */
         width: auto;
-        height: 500px;
+        height: 200px;
+        margin: 0px;
     }
 
     .card img{
         width: auto;
         height: inherit;
-        max-height: 350px;
+        max-height: 150px;
     }
 
     .wrapper {
